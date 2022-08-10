@@ -1,0 +1,36 @@
+.boton-contenedor{
+    height: 82px;
+    display: flex;
+    flex: 1 1; /* Cuanto se puede expandir el componente base a otros componentes */
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #2a2a52;
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    margin: 4px;
+    cursor: pointer;
+    /* padding: 0px 15px; */
+    user-select: none;
+}
+
+.boton-contenedor:hover{
+    transition: 0.7s ease all;
+    background-color: #e4e4e4;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.operador{
+    background-color: #17964c;
+}
+
+.operador:hover{
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    transition: 0.7s ease all;
+}
+
+
